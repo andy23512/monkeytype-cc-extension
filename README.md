@@ -1,0 +1,1 @@
+# Monkeytype CC Extension
