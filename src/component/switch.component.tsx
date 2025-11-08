@@ -52,7 +52,7 @@ const SwitchComponent: React.FC<SwitchComponentProps> = ({
         />
       ))}
       <circle
-        className="fill-(--KeyboardKey-pointer__color)"
+        className="fill-(--main-color)"
         cx={center.x}
         cy={center.y}
         r="53.68"

@@ -78,12 +78,12 @@ const SwitchSectorComponent: React.FC<SwitchSectorComponentProps> = ({
   return (
     <g>
       <path
-        className="fill-(--KeyboardKey-button__color) stroke-(--KeyboardKey-symbol__color)"
+        className="fill-(--sub-color) stroke-(--text-color)"
         d={sectorPath}
         strokeWidth={strokeWidth}
       ></path>
       <path
-        className="fill-(--KeyboardKey-pointer__color)"
+        className="fill-(--main-color)"
         d={sectorPath + " Z"}
         opacity={
           highlightKeyCombination?.positionCodes?.includes(positionCode)

@@ -46,10 +46,15 @@ function AppComponent() {
 
   useEffect(() => {
     function getCurrentText() {
-      const text = document.querySelector('div[dir="ltr"] span[class]');
-      let nextCurrentCharacter = text ? text.textContent : null;
-      if (nextCurrentCharacter === "") {
-        nextCurrentCharacter = " ";
+      const activeWordElement = document.querySelector("div.word.active");
+      let nextCurrentCharacter = null;
+      if (activeWordElement) {
+        const nextCharacterElement = activeWordElement.querySelector(
+          "letter:not([class])"
+        );
+        nextCurrentCharacter = nextCharacterElement
+          ? nextCharacterElement.textContent
+          : " ";
       }
       setCurrentCharacter(nextCurrentCharacter);
     }
@@ -233,7 +238,7 @@ function AppComponent() {
     <Draggable>
       <div
         className={classNames(
-          "p-2 bg-(--Keyboard-frame__color) rounded-lg font-(family-name:--default-font-family) absolute bottom-[100px] left-1/2 -translate-x-1/2 cursor-move",
+          "p-2 bg-(--sub-alt-color) rounded-lg font-(family-name:--font) absolute bottom-0 left-1/2 -translate-x-1/2 cursor-move",
           {
             invisible: !currentCharacter,
           }

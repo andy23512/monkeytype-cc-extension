@@ -55,7 +55,7 @@ const KeyLabelComponent: React.FC<KeyLabelComponentProps> = ({
       {labels?.map((label, index) => (
         <text
           className={classNames(
-            "fill-(--KeyboardKey-symbol__color) cursor-default select-none transition-opacity",
+            "fill-(--text-color) cursor-default select-none transition-opacity",
             {
               "material-icons": label.type === KeyLabelType.Icon,
             }
