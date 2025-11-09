@@ -148,7 +148,7 @@ const Options = () => {
     <Box sx={{ maxWidth: "800px", mx: "auto" }}>
       <AppBar enableColorOnDark={true} position="static">
         <Typography variant="h6" sx={{ mx: 2 }}>
-          Keybr CC Extension - Options
+          Monkeytype CC Extension - Options
         </Typography>
       </AppBar>
       <div className="p-3 flex flex-col items-center">
