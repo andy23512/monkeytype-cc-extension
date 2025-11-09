@@ -6,7 +6,10 @@
   "version": "1.0",
   "browser_specific_settings": {
     "gecko": {
-      "id": "@monkeytype-cc-extension.andy23512"
+      "id": "@monkeytype-cc-extension.andy23512",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
 
