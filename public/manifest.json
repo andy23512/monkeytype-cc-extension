@@ -24,6 +24,11 @@
     "scripts": ["js/background.js"]
   },
 
+  "icons": {
+    "16": "image/icon-16.png",
+    "128": "image/icon-128.png"
+  },
+
   "content_scripts": [
     {
       "matches": ["https://monkeytype.com/*"],

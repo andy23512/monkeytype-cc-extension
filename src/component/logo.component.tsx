@@ -34,8 +34,8 @@ const LogoComponent: React.FC<LogoComponentProps> = ({
                 "2": [
                   {
                     type: KeyLabelType.String,
-                    c: "Keybr",
-                    title: "Keybr",
+                    c: "MT",
+                    title: "Monkeytype",
                     layer: null,
                     shiftKey: null,
                     altGraphKey: null,
