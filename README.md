@@ -1,5 +1,16 @@
 # Monkeytype CC Extension
 
+## Publication Status
+
+|                                                                                                                       | Published Version | Pending Review Version |
+| --------------------------------------------------------------------------------------------------------------------- | ----------------- | ---------------------- |
+| [Chrome Web Store](https://chromewebstore.google.com/detail/monkeytype-cc-extension/mhfjhmegecimjbohhdbflkhdfnaadple) | 1.0               | N/A                    |
+| Firefox Add-ons                                                                                                       | N/A               | 1.0                    |
+
+## Link
+
+- [Demonstration video](https://www.youtube.com/watch?v=nwbKUjUmwD4)
+
 ## Summary
 
 An unofficial browser extension that displays the layout of CharaChorder 3D input devices on Monkeytype
