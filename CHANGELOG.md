@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+(Empty)
+
+## [2.0](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/2.0)
+
 - Setting for OS keyboard layout
 
 ## [1.0](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/1.0)
