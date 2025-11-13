@@ -5,7 +5,7 @@
 |                                                                                                                       | Published Version | Pending Review Version |
 | --------------------------------------------------------------------------------------------------------------------- | ----------------- | ---------------------- |
 | [Chrome Web Store](https://chromewebstore.google.com/detail/monkeytype-cc-extension/mhfjhmegecimjbohhdbflkhdfnaadple) | 2.0               | N/A                    |
-| [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/monkeytype-cc-extension/)                            | 1.0               | N/A                    |
+| [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/monkeytype-cc-extension/)                            | 2.0               | N/A                    |
 
 ## Link
 
@@ -22,7 +22,7 @@ An unofficial browser extension that displays the layout of CharaChorder 3D inpu
 
 With this extension, users can familiarize themselves with the layouts of CharaChorder 3D input devices directly on Monkeytype.
 
-After installation, click the extension icon to open an option page, where you can import a device layout file, choose which device layout to display, toggle the thumb-3 switch, and choose OS keyboard layout.
+After installation, click the extension icon to open an option page, where you can import a device layout file, choose which device layout to display, toggle the thumb-3 switch, and choose an OS keyboard layout.
 
 ### Disclaimer
 
