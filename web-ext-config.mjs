@@ -1,6 +1,6 @@
 export default {
-  build: {
-    sourceDir: "dist",
-    startUrl: "https://monkeytype.com",
+  sourceDir: "dist",
+  run: {
+    startUrl: ["https://monkeytype.com"],
   },
 };
