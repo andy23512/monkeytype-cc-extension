@@ -209,7 +209,7 @@ function LayoutContainerComponent() {
   return (
     <div
       className={classNames(
-        "p-2 bg-(--sub-alt-color) rounded-lg font-(family-name:--font) h-full",
+        "bg-(--sub-alt-color) rounded-lg font-(family-name:--font) h-full outline-8 outline-offset-0 outline-(--sub-alt-color)",
         {
           invisible: !nextText,
         }

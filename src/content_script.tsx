@@ -9,6 +9,7 @@ appContainer.style.width = "100%";
 appContainer.style.height = "100vh";
 appContainer.style.zIndex = "1000";
 appContainer.style.top = "0px";
+appContainer.style.pointerEvents = "none";
 document.body.appendChild(appContainer);
 
 const root = ReactDOM.createRoot(appContainer);
