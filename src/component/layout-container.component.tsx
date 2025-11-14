@@ -209,7 +209,7 @@ function LayoutContainerComponent() {
   return (
     <div
       className={classNames(
-        "p-2 bg-(--sub-alt-color) rounded-lg font-(family-name:--font) cursor-move h-full",
+        "p-2 bg-(--sub-alt-color) rounded-lg font-(family-name:--font) h-full",
         {
           invisible: !nextText,
         }
