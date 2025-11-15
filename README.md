@@ -24,6 +24,8 @@ With this extension, users can familiarize themselves with the layouts of CharaC
 
 After installation, click the extension icon to open an option page, where you can import a device layout file, choose which device layout to display, toggle the thumb-3 switch, and choose an OS keyboard layout.
 
+Clicking the settings button on the layout enters edit mode, allowing you to adjust its position, size, and transparency by dragging, resizing, and scrolling.
+
 ### Disclaimer
 
 This extension is not affiliated, associated, authorized, endorsed by, or in any way officially connected with CharaChorder and Monkeytype.
