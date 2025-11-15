@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.2](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/3.2)
+
+- Fix layout display settings cannot be stored in Firefox error
+
 ## [3.1](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/3.1)
 
 - Fix moveable UI still visible in the result page error

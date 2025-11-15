@@ -3,7 +3,7 @@
 
   "name": "Monkeytype CC Extension",
   "description": "An unofficial browser extension for showing layout of CharaChorder 3D input devices at Monkeytype",
-  "version": "3.1",
+  "version": "3.2",
   "browser_specific_settings": {
     "gecko": {
       "id": "@monkeytype-cc-extension.andy23512",
