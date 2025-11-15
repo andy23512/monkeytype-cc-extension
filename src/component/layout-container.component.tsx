@@ -1,5 +1,4 @@
-import classNames from "classnames";
-import { useEffect, useState } from "react";
+import { FC } from "react";
 import {
   CC1_DEFAULT_DEVICE_LAYOUT,
   M4G_DEFAULT_DEVICE_LAYOUT,
@@ -32,34 +31,16 @@ import { nonNullable } from "../util/non-nullable.util";
 import "./app.component.css";
 import LayoutComponent from "./layout.component";
 
-function LayoutContainerComponent() {
+interface LayoutContainerProps {
+  nextText: string | null;
+}
+
+const LayoutContainerComponent: FC<LayoutContainerProps> = ({ nextText }) => {
   const layout = useSettingsStore.use.layout();
   const customDeviceLayouts = useSettingsStore.use.customDeviceLayouts();
   const selectedKeyboardLayoutId =
     useSettingsStore.use.selectedKeyboardLayoutId();
   const showThumb3Switch = useSettingsStore.use.showThumb3Switch();
-
-  const [nextText, setNextText] = useState<string | null>(null);
-
-  useEffect(() => {
-    function getCurrentText() {
-      const activeWordElement = document.querySelector("div.word.active");
-      let nextText = null;
-      if (activeWordElement) {
-        const nextCharacterElements = activeWordElement.querySelectorAll(
-          "letter:not([class])"
-        );
-        nextText =
-          nextCharacterElements.length > 0
-            ? [...nextCharacterElements.values()]
-                .map((e) => e.textContent)
-                .join("")
-            : " ";
-      }
-      setNextText(nextText);
-    }
-    setInterval(getCurrentText, 100);
-  });
 
   const deviceLayout =
     [
@@ -207,14 +188,7 @@ function LayoutContainerComponent() {
   );
 
   return (
-    <div
-      className={classNames(
-        "bg-(--sub-alt-color) rounded-lg font-(family-name:--font) h-full outline-8 outline-offset-0 outline-(--sub-alt-color)",
-        {
-          invisible: !nextText,
-        }
-      )}
-    >
+    <div className="bg-(--sub-alt-color) rounded-lg font-(family-name:--font) h-full outline-8 outline-offset-0 outline-(--sub-alt-color)">
       <LayoutComponent
         showThumb3Switch={showThumb3Switch}
         keyLabelMap={keyLabelMap}
@@ -222,6 +196,6 @@ function LayoutContainerComponent() {
       />
     </div>
   );
-}
+};
 
 export default LayoutContainerComponent;
