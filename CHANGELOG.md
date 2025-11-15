@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-(Empty)
+- Adjustable size and transparency
 
 ## [2.0](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/2.0)
 
