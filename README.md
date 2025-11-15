@@ -5,7 +5,7 @@
 |                                                                                                                       | Published Version | Pending Review Version |
 | --------------------------------------------------------------------------------------------------------------------- | ----------------- | ---------------------- |
 | [Chrome Web Store](https://chromewebstore.google.com/detail/monkeytype-cc-extension/mhfjhmegecimjbohhdbflkhdfnaadple) | 2.0               | 3.2                    |
-| [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/monkeytype-cc-extension/)                            | 2.0               | 3.2                    |
+| [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/monkeytype-cc-extension/)                            | 3.2               | N/A                    |
 
 ## Link
 
