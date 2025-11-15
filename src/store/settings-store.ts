@@ -10,6 +10,8 @@ interface Settings {
   showThumb3Switch: boolean;
   selectedKeyboardLayoutId: string;
   height: number;
+  xPosition: number;
+  yPosition: number;
 }
 
 interface SettingsState extends Settings {
@@ -21,7 +23,9 @@ const defaultSettings: Settings = {
   customDeviceLayouts: [],
   showThumb3Switch: true,
   selectedKeyboardLayoutId: "us",
-  height: 250,
+  height: 256,
+  xPosition: 0.5,
+  yPosition: 1,
 };
 
 const browserLocalSettingsStorage: PersistStorage<SettingsState> = {
