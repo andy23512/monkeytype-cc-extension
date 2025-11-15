@@ -2,10 +2,10 @@
 
 ## Publication Status
 
-|                                                                                                                       | Published Version | Pending Review Version |
-| --------------------------------------------------------------------------------------------------------------------- | ----------------- | ---------------------- |
-| [Chrome Web Store](https://chromewebstore.google.com/detail/monkeytype-cc-extension/mhfjhmegecimjbohhdbflkhdfnaadple) | 2.0               | 3.2                    |
-| [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/monkeytype-cc-extension/)                            | 3.2               | N/A                    |
+| Published Version                                                                                                                                                                           | Pending Review Version |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| [<img src="https://img.shields.io/chrome-web-store/v/mhfjhmegecimjbohhdbflkhdfnaadple">](https://chromewebstore.google.com/detail/monkeytype-cc-extension/mhfjhmegecimjbohhdbflkhdfnaadple) | 3.2                    |
+| [<img src="https://img.shields.io/amo/v/monkeytype-cc-extension">](https://addons.mozilla.org/en-US/firefox/addon/monkeytype-cc-extension/)                                                 | N/A                    |
 
 ## Link
 
