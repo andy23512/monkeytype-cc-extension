@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## [3.3](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/3.3)
 
 - Fix bug in detection rules of num-shift and fn-shift
 - Add more information in manifest
