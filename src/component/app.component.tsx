@@ -96,8 +96,10 @@ function AppComponent() {
     <>
       <div
         ref={mainDivRef}
-        className={classNames("absolute pointer-events-auto min-h-32", {
+        className={classNames("absolute min-h-32", {
           invisible: !nextText,
+          "pointer-events-auto": editMode,
+          "pointer-events-none": !editMode,
         })}
         style={{
           opacity,
@@ -111,7 +113,7 @@ function AppComponent() {
         <LayoutContainerComponent nextText={nextText} />
         {editMode && (
           <button
-            className="absolute left-0 bottom-0 material-icons"
+            className="absolute pointer-events-auto cursor-pointer left-0 bottom-0 material-icons"
             onClick={handleResetButtonClick}
           >
             replay
@@ -119,20 +121,21 @@ function AppComponent() {
         )}
         <div className="absolute right-0 bottom-0 flex flex-col gap-1">
           {editMode && (
-            <>
-              <button
-                ref={infoButtonRef}
-                className="material-icons"
-                onClick={handleInfoButtonClick}
-              >
-                info
-              </button>
-            </>
+            <button
+              ref={infoButtonRef}
+              className="pointer-events-auto cursor-pointer material-icons"
+              onClick={handleInfoButtonClick}
+            >
+              info
+            </button>
           )}
           <button
-            className={classNames("material-icons", {
-              active: editMode,
-            })}
+            className={classNames(
+              "pointer-events-auto cursor-pointer material-icons",
+              {
+                active: editMode,
+              }
+            )}
             onClick={handleSettingButtonClick}
           >
             settings

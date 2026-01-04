@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Fix layout view blocking mouse event error
+- Add cursor pointer style to buttons in layout view
+
 ## [3.2](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/3.2)
 
 - Fix the layout display settings that cannot be stored in Firefox error
