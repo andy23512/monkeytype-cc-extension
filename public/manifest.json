@@ -2,7 +2,8 @@
   "manifest_version": 3,
 
   "name": "Monkeytype CC Extension",
-  "description": "An unofficial browser extension for showing layout of CharaChorder 3D input devices at Monkeytype",
+  "short_name": "MT CC Ext",
+  "description": "An unofficial browser extension for showing layout of CharaChorder 3D input devices on Monkeytype",
   "version": "3.2",
   "browser_specific_settings": {
     "gecko": {
@@ -47,5 +48,12 @@
     }
   ],
 
-  "permissions": ["storage"]
+  "permissions": ["storage"],
+
+  "author": "Tangent Chang (andy23512)",
+  "developer": {
+    "name": "Tangent Chang (andy23512)",
+    "url": "https://github.com/andy23512/monkeytype-cc-extension"
+  },
+  "homepage_url": "https://github.com/andy23512/monkeytype-cc-extension"
 }

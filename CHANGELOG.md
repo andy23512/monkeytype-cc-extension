@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Add more information in manifest
 - Fix layout view blocking mouse event error
 - Add cursor pointer style to buttons in layout view
 
