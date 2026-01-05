@@ -4,7 +4,7 @@
 
 | Published Version                                                                                                                                                                           | Pending Review Version |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| [<img src="https://img.shields.io/chrome-web-store/v/mhfjhmegecimjbohhdbflkhdfnaadple">](https://chromewebstore.google.com/detail/monkeytype-cc-extension/mhfjhmegecimjbohhdbflkhdfnaadple) | 3.3                    |
+| [<img src="https://img.shields.io/chrome-web-store/v/mhfjhmegecimjbohhdbflkhdfnaadple">](https://chromewebstore.google.com/detail/monkeytype-cc-extension/mhfjhmegecimjbohhdbflkhdfnaadple) | N/A                    |
 | [<img src="https://img.shields.io/amo/v/monkeytype-cc-extension">](https://addons.mozilla.org/en-US/firefox/addon/monkeytype-cc-extension/)                                                 | N/A                    |
 
 ## Link
