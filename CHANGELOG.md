@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## [4.0](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/4.0)
 
 - Support fourth layer
 - Add CCU
