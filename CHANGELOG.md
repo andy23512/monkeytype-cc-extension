@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Support fourth layer
 - Add CCU
 
 ## [3.3](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/3.3)
