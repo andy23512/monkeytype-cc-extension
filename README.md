@@ -18,7 +18,7 @@ An unofficial browser extension that displays the layout of CharaChorder 3D inpu
 
 ## Description
 
-An unofficial browser extension that displays the layout of CharaChorder 3D input devices (CharaChorder One, CharaChorder Two, and Master Forge) on [Monkeytype](https://monkeytype.com/).
+An unofficial browser extension that displays the layout of CharaChorder 3D input devices (CharaChorder One, CharaChorder Two, CCU and Master Forge) on [Monkeytype](https://monkeytype.com/).
 
 With this extension, users can familiarize themselves with the layouts of CharaChorder 3D input devices directly on Monkeytype.
 
