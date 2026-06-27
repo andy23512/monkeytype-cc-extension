@@ -4,6 +4,7 @@
 
 - Add single hand device layouts
 - Code refactor with tangent-cc-lib
+- Export device layout
 
 ## [4.0](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/4.0)
 
