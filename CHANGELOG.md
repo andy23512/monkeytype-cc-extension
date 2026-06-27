@@ -5,6 +5,7 @@
 - Fix right space doesn't have key label and highlight bug
 - Add single hand device layouts
 - Export device layout
+- Option for toggling highlight
 
 ## [4.0](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/4.0)
 
