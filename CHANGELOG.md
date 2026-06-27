@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## [5.0](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/5.0)
 
 - Fix right space doesn't have key label and highlight bug
 - Add single hand device layouts
