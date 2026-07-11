@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## [5.1](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/5.1)
 
 - Fix highlight bug of |\ character
 
