@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "cc-extension-core/style.css";
+
+/*
+ * Map the core's semantic custom properties onto Monkeytype's own theme
+ * variables, so the overlay follows whatever theme the user has selected on
+ * the site.
+ */
+:root {
+  --cc-frame-color: var(--sub-alt-color);
+  --cc-key-color: var(--sub-color);
+  --cc-symbol-color: var(--text-color);
+  --cc-pointer-color: var(--main-color);
+  --cc-font-family: var(--font);
+}
