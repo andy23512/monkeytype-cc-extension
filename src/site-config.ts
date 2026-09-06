@@ -13,8 +13,9 @@ function readNextText(): string | null {
   if (!activeWordElement) {
     return null;
   }
-  const nextCharacterElements =
-    activeWordElement.querySelectorAll("letter:not([class])");
+  const nextCharacterElements = activeWordElement.querySelectorAll(
+    "letter:not([class])"
+  );
   return nextCharacterElements.length > 0
     ? [...nextCharacterElements.values()].map((e) => e.textContent).join("")
     : " ";
