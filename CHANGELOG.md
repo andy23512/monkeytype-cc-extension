@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.0](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/6.0)
+
+- Add CharaChorder Lite layout support
+- Add scroll lock in edit mode
+- Fix Lite layout falling back to the CC1 device layout in some cases
+- Fix settings bug caused by calling hooks conditionally
+
 ## [5.1](https://github.com/andy23512/monkeytype-cc-extension/releases/tag/5.1)
 
 - Fix highlight bug of |\ character

@@ -1,7 +1,7 @@
 {
   "name": "monkeytype-cc-extension",
-  "version": "5.1.0",
-  "description": "An unofficial browser extension that displays the layout of CharaChorder 3D input devices on Monkeytype.",
+  "version": "6.0.0",
+  "description": "An unofficial browser extension that displays the layout of CharaChorder input devices on Monkeytype.",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
