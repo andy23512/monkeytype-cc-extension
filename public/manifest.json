@@ -3,7 +3,7 @@
 
   "name": "Monkeytype CC Extension",
   "short_name": "MT CC Ext",
-  "description": "An unofficial browser extension for showing layout of CharaChorder 3D input devices on Monkeytype",
+  "description": "An unofficial browser extension for showing layout of CharaChorder input devices on Monkeytype",
   "version": "5.1",
   "browser_specific_settings": {
     "gecko": {
